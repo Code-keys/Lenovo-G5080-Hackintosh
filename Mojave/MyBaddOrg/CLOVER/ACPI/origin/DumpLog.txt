@@ -1,0 +1,62 @@
+1:544  0:515  Found UEFI Acpi 2.0 RSDP at 9CFFE014
+1:544  0:000  Saving ACPI tables from RSDP 9CFFE014 to EFI\CLOVER\ACPI\origin ...
+1:544  0:000   9CFFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+1:551  0:007    (Xsdt: 9CFD0188, Rsdt: 9CFD00C4)
+1:551  0:000    9CFD0188: 'XSDT', 'CB-01   ', Rev: 1, Len: 204 -> XSDT.aml
+1:554  0:003    9CFD00C4: 'RSDT', 'CB-01   ', Rev: 1, Len: 120 -> RSDT.aml
+1:558  0:003    Tables in Xsdt: 21
+1:558  0:000    0. 9CFF6000: 'FACP', 'CB-01   ', Rev: 5, Len: 268 -> FACP.aml
+1:565  0:007        (Dsdt: 9CFE1000, Facs: 9CF7A000, XDsdt: 9CFE1000, XFacs: 0)
+1:565  0:000        9CFE1000: 'DSDT', 'CB-01   ', Rev: 2, Len: 65128 -> DSDT.aml
+1:575  0:010        9CF7A000: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+1:578  0:002    1. 9CFFC000: 'UEFI', 'CB-01   ', Rev: 1, Len: 66 -> UEFI.aml
+1:582  0:004    2. 9CFFA000: 'ASF!', 'CB-01   ', Rev: 32, Len: 165 -> ASF!.aml
+1:587  0:004    3. 9CFF8000: 'BOOT', 'CB-01   ', Rev: 1, Len: 40 -> BOOT.aml
+1:591  0:004    4. 9CFF4000: 'LPIT', 'CB-01   ', Rev: 1, Len: 148 -> LPIT.aml
+1:594  0:003    5. 9CFF2000: 'MCFG', 'CB-01   ', Rev: 1, Len: 60 -> MCFG.aml
+1:599  0:004    6. 9CFDB000: 'SSDT', 'CB-01   ', Rev: 2, Len: 2932
+ Found hidden SSDT 4 pcs
+1:599  0:000        * 9A4B3018: 'SSDT', 'CB-01   ', Rev: 2, Len: 1337  53 53 44 54 39 05 00 00 02 BB 4C 45 4E 4F 56 4F Internal length = 1337 -> SSDT-1x.aml
+1:605  0:005        * 9CD12618: 'SSDT', 'ApIst', Rev: 2, Len: 1450  53 53 44 54 AA 05 00 00 02 B8 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-2x.aml
+1:608  0:003        * 9CD11918: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 979  53 53 44 54 D3 03 00 00 02 98 50 6D 52 65 66 00 Internal length = 979 -> SSDT-3x.aml
+1:612  0:003        * 9CDDAC18: 'SSDT', 'ApCst', Rev: 2, Len: 281  53 53 44 54 19 01 00 00 02 D4 50 6D 52 65 66 00 Internal length = 281 -> SSDT-4x.aml
+1:617  0:004   -> SSDT-0.aml
+1:621  0:004    7. 9CFFD000: 'UEFI', 'CB-01   ', Rev: 1, Len: 566 -> UEFI.aml
+1:628  0:007    8. 9CFF9000: 'ASPT', 'CB-01   ', Rev: 7, Len: 52 -> ASPT.aml
+1:632  0:003    9. 9CFF5000: 'HPET', 'CB-01   ', Rev: 1, Len: 56 -> HPET.aml
+1:636  0:003    10. 9CFF1000: 'WDAT', 'CB-01   ', Rev: 1, Len: 548 -> WDAT.aml
+1:640  0:004    11. 9CFDC000: 'SSDT', 'CB-01   ', Rev: 2, Len: 1337 -> SSDT-5.aml
+1:646  0:006    12. 9CFFB000: 'MSDM', 'CB-01   ', Rev: 3, Len: 85 -> MSDM.aml
+1:650  0:003    13. 9CFF3000: 'APIC', 'CB-01   ', Rev: 3, Len: 140 -> APIC.aml
+1:654  0:003    14. 9CFD5000: 'SSDT', 'CB-01   ', Rev: 2, Len: 23235 -> SSDT-6.aml
+1:658  0:004    15. 9CFDD000: 'SSDT', 'CB-01   ', Rev: 2, Len: 13359 -> SSDT-7.aml
+1:663  0:004    16. 9CFF7000: 'DBGP', 'CB-01   ', Rev: 1, Len: 52 -> DBGP.aml
+1:668  0:005    17. 9CFD4000: 'DMAR', 'CB-01   ', Rev: 1, Len: 240 -> DMAR.aml
+1:673  0:004    18. 9CFD3000: 'CSRT', 'CB-01   ', Rev: 1, Len: 196 -> CSRT.aml
+1:678  0:004    19. 9CFD2000: 'FPDT', 'CB-01   ', Rev: 1, Len: 68 -> FPDT.aml
+1:682  0:004    20. 9CFD1000: 'BGRT', 'CB-01   ', Rev: 1, Len: 56 -> BGRT.aml
+1:685  0:003    Tables in Rsdt: 21
+1:685  0:000    0. 9CFF6000: 'FACP', 'CB-01   ', Rev: 5, Len: 268
+1:685  0:000        (Dsdt: 9CFE1000, Facs: 9CF7A000, XDsdt: 9CFE1000, XFacs: 0)
+1:685  0:000        9CFE1000: 'DSDT', 'CB-01   ', Rev: 2, Len: 65128
+1:687  0:001        9CF7A000: 'FACS', Ver: 2, Len: 64
+1:687  0:000    1. 9CFFC000: 'UEFI', 'CB-01   ', Rev: 1, Len: 66
+1:687  0:000    2. 9CFFA000: 'ASF!', 'CB-01   ', Rev: 32, Len: 165
+1:687  0:000    3. 9CFF8000: 'BOOT', 'CB-01   ', Rev: 1, Len: 40
+1:687  0:000    4. 9CFF4000: 'LPIT', 'CB-01   ', Rev: 1, Len: 148
+1:687  0:000    5. 9CFF2000: 'MCFG', 'CB-01   ', Rev: 1, Len: 60
+1:687  0:000    6. 9CFDB000: 'SSDT', 'CB-01   ', Rev: 2, Len: 2932
+1:687  0:000    7. 9CFFD000: 'UEFI', 'CB-01   ', Rev: 1, Len: 566
+1:687  0:000    8. 9CFF9000: 'ASPT', 'CB-01   ', Rev: 7, Len: 52
+1:687  0:000    9. 9CFF5000: 'HPET', 'CB-01   ', Rev: 1, Len: 56
+1:687  0:000    10. 9CFF1000: 'WDAT', 'CB-01   ', Rev: 1, Len: 548
+1:687  0:000    11. 9CFDC000: 'SSDT', 'CB-01   ', Rev: 2, Len: 1337
+1:687  0:000    12. 9CFFB000: 'MSDM', 'CB-01   ', Rev: 3, Len: 85
+1:687  0:000    13. 9CFF3000: 'APIC', 'CB-01   ', Rev: 3, Len: 140
+1:687  0:000    14. 9CFD5000: 'SSDT', 'CB-01   ', Rev: 2, Len: 23235
+1:687  0:000    15. 9CFDD000: 'SSDT', 'CB-01   ', Rev: 2, Len: 13359
+1:687  0:000    16. 9CFF7000: 'DBGP', 'CB-01   ', Rev: 1, Len: 52
+1:687  0:000    17. 9CFD4000: 'DMAR', 'CB-01   ', Rev: 1, Len: 240
+1:687  0:000    18. 9CFD3000: 'CSRT', 'CB-01   ', Rev: 1, Len: 196
+1:687  0:000    19. 9CFD2000: 'FPDT', 'CB-01   ', Rev: 1, Len: 68
+1:687  0:000    20. 9CFD1000: 'BGRT', 'CB-01   ', Rev: 1, Len: 56
